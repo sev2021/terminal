@@ -12,3 +12,13 @@
   add Admin:
   
 > net localgroup Administrators (username) /add
+  
+  
+  Users console:
+  
+> lusrmgr.msc  
+  
+  
+  System Properties Advanced:
+  
+> sysdm.cpl  
