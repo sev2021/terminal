@@ -12,6 +12,10 @@
   add Admin:
   
 > net localgroup Administrators (username) /add
+    
+  password expiration:
+  
+> net accouts /MAXPWAGE:unlimited
   
   
   Users console:
