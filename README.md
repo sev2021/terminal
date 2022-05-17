@@ -26,3 +26,8 @@
   System Properties Advanced:
   
 > sysdm.cpl  
+
+
+  Windows System shares:
+  
+> fsmgmt.msc
