@@ -31,3 +31,9 @@
   Windows System shares:
   
 > fsmgmt.msc
+  
+  
+  Windows integrity check:
+  
+> DISM.exe /Online /Cleanup-image /Scanhealth  
+> DISM.exe /Online /Cleanup-image /Restorehealth
