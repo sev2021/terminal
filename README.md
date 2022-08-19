@@ -3,37 +3,41 @@
   run as Admin:
   list all users:
   
-> net user
+`net user`
   
   add user:
   
-> net user (username) (password) /add  
+`net user (username) (password) /add`
+
+  change user password (new password prompted after Enter):
+  
+`net user (username) *`
   
   add Admin:
   
-> net localgroup Administrators (username) /add
+`net localgroup Administrators (username) /add`
     
   password expiration:
   
-> net accouts /MAXPWAGE:unlimited
+`net accouts /MAXPWAGE:unlimited`
   
   
   Users console:
   
-> lusrmgr.msc  
+`lusrmgr.msc`
   
   
   System Properties Advanced:
   
-> sysdm.cpl  
+`sysdm.cpl`
 
 
   Windows System shares:
   
-> fsmgmt.msc
+`fsmgmt.msc`
   
   
   Windows integrity check:
   
-> DISM.exe /Online /Cleanup-image /Scanhealth  
-> DISM.exe /Online /Cleanup-image /Restorehealth
+`DISM.exe /Online /Cleanup-image /Scanhealth  
+DISM.exe /Online /Cleanup-image /Restorehealth`
