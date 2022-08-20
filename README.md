@@ -85,6 +85,7 @@ Flags „u” and „p” force mysql to start with specific user (root in this 
 mysql> ALTER USER 'root'@'localhost' IDENTIFIED BY 'new_password_here';
 mysql> CREATE USER 'root'@'localhost' IDENTIFIED BY 'new_password_here';
 mysql> SHOW GRANTS FOR 'root'@'localhost';
+mysql> GRANT ALL PRIVILEGES ON database.* TO 'username'@'localhost';
 mysql> QUIT;
 </pre>
 
